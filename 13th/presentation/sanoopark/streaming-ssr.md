@@ -59,7 +59,7 @@ Streaming SSR이란, 서버에서 HTML을 여러 Chunk로 나눠 렌더링 하�
 
 <img src="images/09.png" width="600">
 
-그리고 렌더링 과정에서 실행되는 `renderToPipeableStream` 메서드에서는 Suspense를 건너뛰고 현재 생성할 수 있는 Stream을 먼저 생성합니다. 만약 이전 버전의 `renderToString` 메서드를 사용한다면 모든 컴포넌트를 즉각적으로 HTML String으로 렌더링해야 하기 때문에 렌더링이 블락되는 특정 컴포넌트가 있다면 렌더링 전체의 과정이 지연되었을 것이고, 클라이언트에서 코드 스플리팅을 통한 점진적 하이드레이션도 가능하지 않았을 것입니다.
+그리고 렌더링 과정에서 실행되는 `renderToPipeableStream` 메서드에서는 Suspense로 감싼 컴포넌트에서 비동기 작업이 완료될 때까지 fallback 컴포넌트를 포함한 나머지 컴포넌트를 Stream으로 렌더링합니다. 그리고 이후 Suspense의 children에 속하는 컴포넌트에서 비동기 작업이 완료되면 다시 해당 부분을 렌더링해서 Stream에 추가해서 응답합니다. 만약 이전 버전의 `renderToString` 메서드를 사용한다면 모든 컴포넌트를 즉각적으로 HTML String으로 렌더링해야 하기 때문에 비동기 작업이 지연되는 특정 컴포넌트가 있다면 렌더링 전체의 과정이 지연되었을 것이고, Suspense를 사용하더라도 추가적으로 렌더링된 부분 데이터를 Stream과 같이 전달할 방법이 없기 때문에 fallback 컴포넌트만 렌더링될 것입니다. 이것이 바로 [React 18 이전 버전 SSR 환경에서 Suspense가 동작하지 않는 이유](https://react.dev/reference/react-dom/server/renderToString#when-a-component-suspends-the-html-always-contains-a-fallback)입니다.
 
 <img src="images/10.png" width="600">
 
