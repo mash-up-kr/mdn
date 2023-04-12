@@ -8,7 +8,7 @@
 
 ### ☑️ 참여자
 
-@otterji @poiu694 @sanoopark @Young-mason @leahincom
+[@otterji](https://github.com/otterji) [@poiu694](https://github.com/poiu694) [@sanoopark](https://github.com/sanoopark) [@Young-mason](https://github.com/Young-mason) [@leahincom](https://github.com/leahincom)
 
 ### ☑️ 스터디 자료
 
