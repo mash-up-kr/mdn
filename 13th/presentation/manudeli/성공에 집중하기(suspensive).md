@@ -215,4 +215,6 @@ pnpm add @suspensive/react @suspensive/react-query
 - useSuspenseQuery
 - useSuspenseInfiniteQuery
 
-suspensive의 자세한 내용은 [공식문서에서 확인](https://suspensive.org/)해주세요.
+### 자세한 내용
+- suspensive의 자세한 내용은 [공식문서에서 확인](https://suspensive.org/)해주세요.
+- [@tanstack/react-query 공식문서에서도 @suspensive/react-query 내용](https://tanstack.com/query/latest/docs/react/community/suspensive-react-query)을 확인하실 수 있어요.
