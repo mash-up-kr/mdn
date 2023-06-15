@@ -1,4 +1,4 @@
-# TCP/IP가 보이는 그림책 완독하기
+# OS가 보이는 그림책 완독하기
 
 ### ☑️ 스터디 개요
 
@@ -8,15 +8,15 @@
 
 ### ☑️ 참여자
 
-[@otterji](https://github.com/otterji) [@poiu694](https://github.com/poiu694) [@sanoopark](https://github.com/sanoopark) [@Young-mason](https://github.com/Young-mason)
+[@otterji](https://github.com/otterji) [@poiu694](https://github.com/poiu694) [@Young-mason](https://github.com/Young-mason) [@HaJunRyu](https://github.com/HaJunRyu)
 
 ### ☑️ 스터디 자료
 
 <p align="left">
-  <a href="https://docs.google.com/presentation/d/1aurrB3iaGTdJSUgOa0KNcOGl54F36yj0UVZChDhQJLI/edit?usp=sharing" target="_blank" rel="noreferrer">
+  <a href="https://docs.google.com/presentation/d/1n4KUl4QBaK6--z2lDaiy3RmfvVQZhxKhRfCUYfiyNF8/edit?usp=sharing" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Google_Slides_logo_%282014-2020%29.svg" alt="heroku" width="40" height="40"/>
   </a> 
-  <a href="https://snow-chestnut-45b.notion.site/CS-95489bb2a6b54d2481a3ff5b4904dd0c" target="_blank" rel="noreferrer">
+  <a href="https://snow-chestnut-45b.notion.site/CS-OS-864735ab654148289c36539242ff762b?pvs=4" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" alt="heroku" width="40" height="40"/>
   </a> 
 </p>
